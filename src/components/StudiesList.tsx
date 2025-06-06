@@ -25,7 +25,7 @@ export default function StudiesList() {
 
   const ToggleButton = (study: Study) => {
     redirect(
-      `http://localhost:3000/${study.protocolSection.identificationModule.nctId}`
+      `https://curify-gilt.vercel.app/${study.protocolSection.identificationModule.nctId}`
     );
   };
 
